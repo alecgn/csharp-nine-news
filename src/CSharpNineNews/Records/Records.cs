@@ -19,7 +19,7 @@
 
     public record CityTax : Tax
     {
-        public string CityName { get; set; }
+        public string CityName { get; init; }
 
         public CityTax(string initials, string name, float percentageRate, string cityName) :
             base(initials, name, percentageRate) => (CityName) = (cityName);
