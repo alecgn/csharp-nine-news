@@ -38,7 +38,6 @@ namespace CSharpNineNews
             Console.WriteLine($"[{nameof(iss05New)} == {nameof(iss05)}]: {(iss05New == iss05)}");
         }
 
-        // pretty print with json syntax
         private static void ShowRecordData(object record) =>
             Console.WriteLine(JsonSerializer.Serialize(record));
     }

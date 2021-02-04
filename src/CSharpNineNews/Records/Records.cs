@@ -2,14 +2,14 @@
 {
     public record Tax
     {
-        public string Initials { get; init; }
-        public string Name { get; init; }
-        public float PercentageRage { get; init; }
-
         public Tax() { }
 
         public Tax(string initials, string name, float percentageRate) => 
             (Initials, Name, PercentageRage) = (initials, name, percentageRate);
+
+        public string Initials { get; init; }
+        public string Name { get; init; }
+        public float PercentageRage { get; init; }
     }
 
     public record StateTax : Tax
