@@ -1,15 +1,17 @@
-﻿using CSharpNineNews.Records;
+﻿using Records.RecordObjects;
 using System;
 using System.Text.Json;
 
-namespace CSharpNineNews
+namespace Records
 {
     class Program
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("[Info]: all records used in this program uses init only setters, a new featura from C# 9 too.");
+
             StateTax icms12;
-            Console.WriteLine($"Testing Records - Creating new isntance of [{nameof(StateTax)}] named [{nameof(icms12)}]:");
+            Console.WriteLine($"\nTesting Records - Creating new instance of [{nameof(StateTax)}] named [{nameof(icms12)}]:");
             icms12 = new()
             {
                 Initials = "ICMS",

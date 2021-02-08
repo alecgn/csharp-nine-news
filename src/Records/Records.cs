@@ -1,4 +1,4 @@
-﻿namespace CSharpNineNews.Records
+﻿namespace Records.RecordObjects
 {
     public record Tax
     {
