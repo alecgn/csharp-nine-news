@@ -6,7 +6,8 @@ namespace FitAndFinishFeatures
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("In C# 9.0, you can omit the type in a new expression when the created object's type is already known.");
+            Console.WriteLine("Testing Fit and Finish Features.");
+            Console.WriteLine("\nIn C# 9.0, you can omit the type in a new expression when the created object's type is already known.");
             Console.WriteLine("Consider the following class:");
             Console.WriteLine("\npublic class Person");
             Console.WriteLine("{");
